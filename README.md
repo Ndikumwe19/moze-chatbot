@@ -156,7 +156,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTACT -->
 ## Contact
 
-Ndikumwenayo Moise - [@twitter]([https://twitter.com/your_username](https://twitter.com/Nd_Moze)) - ndikumwenayo19@gmail.com.com
+Ndikumwenayo Moise - [@twitter]([https://twitter.com/Nd_Moze]) - ndikumwenayo19@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
