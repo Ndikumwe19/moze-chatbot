@@ -144,7 +144,7 @@ After runnung the gunicorn command open your browser at http://127.0.0.1/5000 to
 
 - [x] Add Database 
 - [x] Host in Render
-- [] Deployed using Docker 
+- [ ] Deployed using Docker 
 - [x] Add laungage Detection 
 - [ ] Add Voice interaction
 
