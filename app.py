@@ -15,9 +15,11 @@ chatBot = chatBot()
 #nltk.download('punkt')
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:9mcxtgIFPQwi0cKDy8fhEy14YQCLV98M@dpg-cf35u3pgp3jl0q3bmj60-a.oregon-postgres.render.com/chatbot_n9e3"
+db = SQLAlchemy(app)
 CORS(app)
 
-#from flask import get_response
+from flask import get_response
 
 class translator:
     api_url = "https://translate.googleapis.com/translate_a/single"
