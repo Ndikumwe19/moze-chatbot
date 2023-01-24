@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request,jsonify
-from flask_ngrok import run_with_ngrok
 from flask_cors import CORS
 import re
 import requests
