@@ -34,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">CHATBOT</h3>
+  <h3 align="center">A RURA CHATBOT</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A conversation chabot to server information related to RURA!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -93,9 +93,17 @@ Welcome to our government institution's chatbot! Our chatbot is designed to assi
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list all the packages and frameworks used to develop the chatbot.
 
-*
+* Python
+* Flask
+* Pytorch
+* Gunicorn
+* Flask SQL Alchemy
+* Language Detect/Detect Lang
+* NLTK
+* Numpy
+* Psycopg2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,25 +112,26 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Use the following commands to install and run the chatbot application.
 
 ### Installation
 
+
 1. Clone the repo
    ```sh
-   https://github.com/Ndikumwe19/moze-chatbot.git
+   git clone https://github.com/agent87/myChatbotApp.git
    ```
-2. Go to directory 
+2. Go into the directory
    ```sh
    cd myChatbotApp
-   ```
-3. Install pip packages
+   ```   
+  
+3. Install pip packages 
    ```sh
-   pip intall r- requerements.text
+   pip install -r requirements.txt
    ```
- 4. Start the flask app using gunicorn
-  ```sh
+4. Start the flask app using gunicorn
+   ```sh
    gunicorn app:app
    ```
 
@@ -133,7 +142,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After runnung the gunicorn command open your browser at http://127.0.0.1/5000 to interact6 with the chatbot.
+After running the gunicorn command open your browser at http://127.0.0.1/5000 to interact with the chatbot.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,23 +151,22 @@ After runnung the gunicorn command open your browser at http://127.0.0.1/5000 to
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Database 
-- [x] Host in Render
-- [ ] Deployed using Docker 
-- [x] Add laungage Detection 
+- [x] Add Database
+- [x] Host on Render
+- [x] Add Language Detect
+- [ ] Deploy using Docker
 - [ ] Add Voice interaction
 
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- CONTACT -->
 ## Contact
 
-Ndikumwenayo Moise - [@twitter]([https://twitter.com/Nd_Moze]) - ndikumwenayo19@gmail.com
+Arnaud Kayonga - [@Linkedin](https://www.linkedin.com/in/arnaud-kayonga-5910a813a) - arnauldkayonga1@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
